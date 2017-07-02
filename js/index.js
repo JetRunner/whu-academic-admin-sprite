@@ -7,4 +7,13 @@ function footer(){
 }
 header();
 footer();
+$.ajax({
+    url:"http://210.42.121.241/",
+    success:function(){
+        console.log("Success");
+    },
+    error:function(xhr){
+        console.log(xhr.status);
+    }
+});
 //window.location.pathname
