@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "WHU Student Curriculum System Mod",
+  "description": "This extension allow you to access a much prettier and bug-fixed student curriculum system of Wuhan University.",
+  "version": "1.0",
+  "homepage_url":"https://github.com/JetRunner/WHU-curr-mod",
+
+  /*"icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },*/
+  "browser_action": {
+    //"default_icon": "images/icon.png",
+    "default_popup": "index.html",
+    "default_title": "WHU Student Curriculum System Mod"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://210.42.121.241/*","http://210.42.121.132/*","http://210.42.121.133/*","http://210.42.121.134/*"],
+      "css": ["css/index.css"],
+      "js": ["js/zepto.min.js","js/index.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "http://210.42.121.241/*",
+    "http://210.42.121.132/*",
+    "http://210.42.121.133/*",
+    "http://210.42.121.134/*"
+  ]
+}

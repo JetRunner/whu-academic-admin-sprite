@@ -1,0 +1,66 @@
+.greyBg{
+    background-color:#F1F1F1!important;
+}
+#container{
+    box-sizing: border-box!important;
+    min-height: calc(100vh - 230px)!important;
+    background-color: #F1F1F1!important; 
+}
+#loginBox{
+    background-image: none!important;
+}
+#main_contaier,#teacher_main_contaier{
+    background: #F1F1F1!important;
+}
+#school,#system{
+    display: none;
+}
+#top{
+    height: 0!important;
+
+}
+.mod-footer{
+    padding-top:5px;
+    width:100%;
+    height:110px;
+    background: white;
+}
+#footer{
+    color:#222!important;
+    font-size:14px;
+    background-color:white!important;
+}
+#login_info{
+    position: relative;
+    bottom:70px;
+}
+#downlistWrapper{
+    position: absolute;
+    right:0;
+    top:60px;
+}
+.index-header{
+    width:100%;
+    text-align: left;
+    height:60px;
+    color:#333;
+    background:white;
+
+}
+.index-header h1{
+    display: inline;
+    font-size: 20px;
+    position: relative;
+    top:16px;
+    left:20px;
+}
+.index-header > span{
+    position: relative;
+    left:23px;
+}
+html{
+    font-family: "Source Hans Sans SC","PingFang SC","Microsoft Yahei",Arial,sans-serif!important;
+}
+body{
+    font-family: "Source Hans Sans SC","PingFang SC","Microsoft Yahei",Arial,sans-serif!important;
+}
