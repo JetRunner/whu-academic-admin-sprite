@@ -1,4 +1,5 @@
 .greyBg{
+    min-width:1182px;
     background-color:#F1F1F1!important;
 }
 #container{
@@ -61,8 +62,48 @@
     position: relative;
     left:23px;
 }
+#courseTableHead{
+    background: white!important;
+    height:50px!important;
+}
+#thead_title span{
+    position: relative;
+    top:6px;
+    height:auto!important;
+    color:black!important;
+    padding-top:0!important;
+}
+#preSemester,#nextSemester,#right_ring,#courseTableHead div{
+    height:50px!important;
+    background: white!important;
+}
+.course_shift{
+    position: relative;
+    top:10px;
+    margin: 0!important;
+    background-image: none!important;
+}
+.mod-btn {
+	color: rgb(255, 255, 255)!important;
+    outline: none;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-width: 1px;
+	border-color: rgb(255, 255, 255);
+	border-style: solid;
+	border-radius: 6px;
+	background: rgb(32, 160, 255)!important;
+}
+
+.mod-btn:hover {
+	color: #ffffff;
+	background: #3eaaf7!important;
+	border-color: #ffffff;
+}
 html{
-    min-width:1182px;
     font-family: "Source Hans Sans SC","PingFang SC","Microsoft Yahei",Arial,sans-serif!important;
 }
 body{
