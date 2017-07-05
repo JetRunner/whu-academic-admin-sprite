@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "WHU Student Curriculum System Mod",
-  "description": "This extension allow you to access a much prettier and bug-fixed student curriculum system of Wuhan University.",
+  "name": "WHU Academic Admin Sprite",
+  "description": "This extension allow you to access a much prettier and bug-fixed student academic admin system of Wuhan University.",
   "version": "1.0",
   "homepage_url":"https://github.com/JetRunner/WHU-curr-mod",
 
