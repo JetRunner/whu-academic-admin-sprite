@@ -1,4 +1,4 @@
-# WHU Curriculum System Mod 武汉大学教务系统魔改扩展
+# WHU Academic Admin Sprite 武大教务精灵
 For Chrome  
 适用于谷歌浏览器
 ## Features
