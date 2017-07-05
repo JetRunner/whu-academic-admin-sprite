@@ -11,11 +11,42 @@
 #loginBox{
     background-image: none!important;
 }
+#loginInputBox{
+    position: relative;
+    left:170px;
+    float: left!important;
+    margin-right:0!important;
+}
+#loginBtn{
+    position: relative;
+    right:234px;
+    top:150px;
+    width:234px!important;
+    height:auto!important;
+    font-size:18px!important;
+}
+.inputWraper input{
+    box-sizing: border-box;
+    padding-left:5px;
+    padding-right:5px;
+    outline: none;
+}
 #main_contaier,#teacher_main_contaier{
     background: #F1F1F1!important;
 }
 #school,#system{
     display: none;
+}
+.change-captcha{
+    display: none;
+}
+#captcha-img{
+    position: relative;
+    left:15px;
+    cursor: pointer;
+}
+.guest-tishi{
+    color:#666!important;
 }
 #top{
     height: 0!important;
@@ -67,11 +98,16 @@
     height:50px!important;
 }
 #thead_title span{
+    display: inline-block!important;
     position: relative;
     top:6px;
+    left:40px;
     height:auto!important;
     color:black!important;
     padding-top:0!important;
+}
+#thead_title{
+    margin: 0!important;
 }
 #preSemester,#nextSemester,#right_ring,#courseTableHead div{
     height:50px!important;
