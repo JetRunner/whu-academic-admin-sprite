@@ -7,4 +7,7 @@ For Chrome
 3. Auto or manually check server status. 教务服务器状态检测
 4. Fix "null" BUG when page turning. 修复翻页时的"null" BUG (TODO)
 
-![拓展截图](https://s1.ax1x.com/2017/09/29/1iE0x.png)
+## Contributing
+There will be no more support or development from me. Yet you can contribute to this project by fork it and open pull requests.
+
+![Screenshot](https://s1.ax1x.com/2017/09/29/1iE0x.png
