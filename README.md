@@ -10,4 +10,4 @@ For Chrome
 ## Contributing
 There will be no more support or development from me. Yet you can contribute to this project by fork it and open pull requests.
 
-![Screenshot](https://s1.ax1x.com/2017/09/29/1iE0x.png
+![Screenshot](https://s1.ax1x.com/2017/09/29/1iE0x.png)
